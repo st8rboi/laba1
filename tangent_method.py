@@ -33,6 +33,7 @@ def tangent_method(a, b, eps=10**(-6)):
     return x_m, count
 
 xmin, count = tangent_method(3, 5)
-print()
-print('-------Метод касательных-------')
+print('-------------------------------------')
+print('----------Метод касательных----------')
 print(f'Xmin={xmin:.4f}, f(xmin)={f(xmin):.4f}, count={count}')
+print('-------------------------------------')

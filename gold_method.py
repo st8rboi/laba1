@@ -2,8 +2,6 @@ import math as m
 
 def f(x):
     return (x-4)**2+m.log(x)
-    #return x**2
-    #return x-1-m.log(x) 
 
 def gold_method(a: int, b: int, eps=10**(-6)):
     count = 0
@@ -38,6 +36,7 @@ a = 3
 b = 5
 xmin, count = gold_method(a, b)
 
-print(f'Точка минимума: {xmin}')
-print(f'Значение: {f(xmin)}')
-print(f'Кол-во итераций: {count}')
+print('-------------------------------------')
+print('--------Метод золотого сечения-------')
+print(f'Xmin={xmin:.4f}, f(xmin)={f(xmin):.4f}, count={count}')
+print('-------------------------------------')

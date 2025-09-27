@@ -20,6 +20,7 @@ def parabolic_method(x, eps=10**(-6)):
 
 xmin, count = parabolic_method(3)
 
-print()
-print('-------Метод парабол-------')
+print('-------------------------------------')
+print('------------Метод парабол------------')
 print(f'Xmin={xmin:.4f}, f(xmin)={f(xmin):.4f}, count={count}')
+print('-------------------------------------')
